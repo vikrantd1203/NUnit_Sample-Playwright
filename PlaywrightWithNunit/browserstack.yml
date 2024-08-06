@@ -1,0 +1,13 @@
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
+platforms:
+  - browserName: chrome
+    os: Windows
+    osVersion: 10
+    browserVersion: latest
+browserstackLocal: true
+buildName: bstack-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Sample
+debug: true
+consoleLogs: info
